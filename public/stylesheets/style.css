@@ -7,6 +7,10 @@ body {
 a {
     padding: 5px;
     border-radius: 5px;
-    background-color: #00ffff;
+    background-color: #77ffff;
     color: #0000ff;
+}
+
+a:hover {
+    background-color: #00eeee;
 }
