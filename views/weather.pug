@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1= title 
+    p The weather in #{city} is 
+    p #{weather}
+    p Temperature: #{temperature} C
+    p Updated at: #{time}
+    a(class='button', href='/sendWeatheraAPI') Get Weather
